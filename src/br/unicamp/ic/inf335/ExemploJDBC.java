@@ -135,7 +135,7 @@ public class ExemploJDBC {
 
 	public static void main(String[] args) {
 		ExemploJDBC loja = new ExemploJDBC();
-		Connection conn = conectar("root", "admin", "jdbc:mysql://172.17.0.2:3306/loja");
+		Connection conn = conectar("userdb", "useradmin", "jdbc:mysql://172.17.0.2:3306/loja");
 
 		if(conn != null) {
 			System.out.println("Lista Original de Produtos");
